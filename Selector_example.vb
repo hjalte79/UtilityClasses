@@ -148,5 +148,25 @@ Public Class Selector(Of T)
 
         SelectionStatus = SelectionStatusEnum.SometingIsSelected
     End Sub
+	
+    ' Copyright 2024
+    ' 
+    ' This code was written by Jelte de Jong, and published on www.hjalte.nl
+    '
+    ' Permission Is hereby granted, free of charge, to any person obtaining a copy of this 
+    ' software And associated documentation files (the "Software"), to deal in the Software 
+    ' without restriction, including without limitation the rights to use, copy, modify, merge, 
+    ' publish, distribute, sublicense, And/Or sell copies of the Software, And to permit persons 
+    ' to whom the Software Is furnished to do so, subject to the following conditions:
+    '
+    ' The above copyright notice And this permission notice shall be included In all copies Or
+    ' substantial portions Of the Software.
+    ' 
+    ' THE SOFTWARE Is PROVIDED "AS IS", WITHOUT WARRANTY Of ANY KIND, EXPRESS Or IMPLIED, 
+    ' INCLUDING BUT Not LIMITED To THE WARRANTIES Of MERCHANTABILITY, FITNESS For A PARTICULAR 
+    ' PURPOSE And NONINFRINGEMENT. In NO Event SHALL THE AUTHORS Or COPYRIGHT HOLDERS BE LIABLE 
+    ' For ANY CLAIM, DAMAGES Or OTHER LIABILITY, WHETHER In AN ACTION Of CONTRACT, TORT Or 
+    ' OTHERWISE, ARISING FROM, OUT Of Or In CONNECTION With THE SOFTWARE Or THE USE Or OTHER 
+    ' DEALINGS In THE SOFTWARE.
 End Class
 Public Enum SelectionStatusEnum : NotStarted : StillSelecting : Canceled : SometingIsSelected : End Enum
